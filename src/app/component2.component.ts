@@ -7,13 +7,12 @@ import { Component } from "@angular/core";
    template:`
    <h1>Component 1</h1>
    <div>
-     <button (click)="onGetData()">Get randon Data</button>
+     <button (click)="onGetData()">Get random Data</button>
      <p>Random Data: {{data}}</p>
      <input type="text" #input>
      <button (click)="onAddItem(input.value)">Add Data</button>
    </div>
    `,
-   providers: [DataService]
 })
 export class Component2{
    data: string;

@@ -13,7 +13,6 @@ import { Component } from "@angular/core";
     <button (click)="onAddItem(input.value)">Add Data</button>
    </div>
    `,
-   providers: [DataService]
 })
 export class Component1{
    data: string;
